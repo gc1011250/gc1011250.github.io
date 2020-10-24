@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+    --main-color: rgb(255, 106, 118);
+    --main-color-darker: rgb(205, 86, 108);
+
+    --text-color: rgb(220, 220, 220);
+
+    --dark-bg-color: rgb(30, 30, 30);
+    --bg-color: rgb(40, 40, 40);
+    --light-bg-color: rgb(50, 50, 50);
+    --lighter-bg-color: rgb(60, 60, 60);
+    --lightest-bg-color: rgb(100, 100, 100);
+}
+
+body {
+    background-color: var(--bg-color);
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    --width-max: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#body-color1 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    margin-left: calc(((var(--width-max) - 1024px) / 2)*-1);
+    margin-top: 58px;
+    background-color: var(--dark-bg-color);
+}
+
+
+
+
+/* main-text */
+#main-text {
+    margin-left: 10px;
+    text-align: left;
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* icons */
+
+#icons-div {
+    position: absolute;
+    width: 1024px;
+    height: 400px;
+    margin-top: 58px; 
+}
+
+.icons-text {
+    margin-left: 10px;
+    text-align: left;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#google-maps-iframe {
+    width: 100%;
+    height: 400px;
+}
+
+#name-textbox {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+    size: 40px;
+}
+
+#email-textbox {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    size: 40px;
+}
+
+#message-textbox {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+    resize: none;
+    
+}
+
+
+
+#side-text {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-left: 650px;
+    margin-top: 50px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+
+#icon-side {
+    color: var(--main-color);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: -10px;
+
+}
+
+#icon-side img {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+    margin-bottom: -10px;
+}
+
+#side-phone-email strong {
+    color: var(--main-color);
+    font-weight: 400;
+}
+
+#send-button {
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 50px;
+    color:var(--text-color);
+    text-decoration: none;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 2px;	
+    text-align: center;
+    font-weight: 700;
+
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    
+    transition: color 0.3s ease;
+    transition: background-color 0.2s ease;
+
+    background-color: var(--light-bg-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+#send-button:hover {
+    transition: color 0.3s ease;
+    transition: background-color 0.2s ease;
+
+    background-color: var(--main-color);
+}
+
