@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+    --main-color: rgb(255, 106, 118);
+    --main-color-darker: rgb(205, 86, 108);
+
+    --text-color: rgb(220, 220, 220);
+
+    --dark-bg-color: rgb(30, 30, 30);
+    --bg-color: rgb(40, 40, 40);
+    --light-bg-color: rgb(50, 50, 50);
+    --lighter-bg-color: rgb(60, 60, 60);
+    --lightest-bg-color: rgb(100, 100, 100);
+}
+
+body {
+    background-color: var(--bg-color);
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    --width-max: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#body-color1 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    margin-left: calc(((var(--width-max) - 1024px) / 2)*-1);
+    margin-top: 58px;
+    background-color: var(--dark-bg-color);
+}
+
+
+
+
+/* main-text */
+#main-text {
+    margin-left: 10px;
+    text-align: left;
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* icons */
+
+#icons-div {
+    position: absolute;
+    width: 1024px;
+    height: 400px;
+    margin-top: 58px; 
+}
+
+#icons-div a {
+    margin-left: 0px;
+}
+
+.icon-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+#icons-img1 {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+#icons-img2 {
+    margin-top: 50px;
+    margin-left: 43px;
+}
+#icons-img3 {
+    margin-top: 50px;
+    margin-left: 43px;
+}
+#icons-img4 {
+    margin-top: 50px;
+    margin-left: 43px;
+}
+
+#icons-img5 {
+    margin-top: 140px;
+    margin-left: 0px;
+}
+#icons-img6 {
+    margin-top: 140px;
+    margin-left: 43px;
+}
+#icons-img7 {
+    margin-top: 140px;
+    margin-left: 43px;
+}
+#icons-img8 {
+    margin-top: 140px;
+    margin-left: 43px;
+}
+
+/* icon text */
+
+.text-img {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.icon-text-detail {
+    color: var(--text-color);
+    font-size: 12px;
+    height: 100px;
+}
+
+
+
+
+#icons-img1-text-div {
+    margin-left: 0px;
+}
+
+#icons-img2-text-div {
+    margin-left: calc(220px + 50px);
+}
+
+#icons-img3-text-div {
+    margin-left: calc(440px + 100px);
+}
+
+#icons-img4-text-div {
+    margin-left: calc(660px + 150px);
+}
+
+

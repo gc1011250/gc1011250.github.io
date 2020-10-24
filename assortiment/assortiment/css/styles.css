@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+    --main-color: rgb(255, 106, 118);
+    --main-color-darker: rgb(205, 86, 108);
+
+    --text-color: rgb(220, 220, 220);
+
+    --dark-bg-color: rgb(30, 30, 30);
+    --bg-color: rgb(40, 40, 40);
+    --light-bg-color: rgb(50, 50, 50);
+    --lighter-bg-color: rgb(60, 60, 60);
+    --lightest-bg-color: rgb(100, 100, 100);
+}
+
+body {
+    background-color: var(--bg-color);
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    --width-max: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#body-color1 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    margin-left: calc(((var(--width-max) - 1024px) / 2)*-1);
+    margin-top: 58px;
+    background-color: var(--dark-bg-color);
+}
+
+#body-color2 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    margin-left: calc(((var(--width-max) - 1024px) / 2)*-1);
+    margin-top: 960px;
+    background-color: var(--bg-color);
+}
+
+
+
+
+/* main-text */
+#main-text {
+    margin-left: 10px;
+    text-align: left;
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* icons */
+
+#icons-div {
+    position: absolute;
+    width: 1024px;
+    height: 400px;
+    margin-top: 58px; 
+}
+
+#icons-div a {
+    margin-left: 0px;
+}
+
+#icons-img1 {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#icons-img2 {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 43px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#icons-img3 {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 43px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#icons-img4 {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 43px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* icon text */
+
+#icons-img1-text-div {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    margin-left: 0px;
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+#icons-img2-text-div {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    margin-left: calc(220px + 50px);
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+#icons-img3-text-div {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    margin-left: calc(440px + 100px);
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+#icons-img4-text-div {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    margin-left: calc(660px + 150px);
+    text-align: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+

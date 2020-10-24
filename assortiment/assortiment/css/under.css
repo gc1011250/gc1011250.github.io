@@ -1,0 +1,189 @@
+.under-text {
+    color: var(--text-color);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* wiewijzijn-div */
+
+#wiewijzijn-div {
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    margin-top: 700px;
+}
+
+#wiewijzijn-line {
+    width: 230px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: var(--lightest-bg-color);
+}
+
+
+#wiewijzijn-div p {
+    color: var(--text-color);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* opening-div */
+
+#opening-div {
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: calc((230px + 26px) * 1);
+}
+
+#opening-line {
+    width: 230px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: var(--lightest-bg-color);
+}
+
+#opening-day p {
+    color: var(--text-color);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#opening-time {
+    margin-left: 120px;
+    margin-top: -235px
+}
+
+#opening-time p {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* adress-div */
+
+#adress-div {
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: calc((230px + 26px) * 2);
+}
+
+#adress-line {
+    width: 230px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: var(--lightest-bg-color);
+}
+
+#adress-div p {
+    color: var(--text-color);
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#adress-div a {
+    margin-top: 2px;
+    color: var(--text-color);
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+
+#adress-div img {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+
+
+
+/* contact-div */
+
+#contact-div {
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: calc((230px + 26px) * 3);
+}
+
+#contact-line {
+    width: 230px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: var(--lightest-bg-color);
+}
+
+#contact-div p {
+    color: var(--text-color);
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+
+#contact-div a {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    color:var(--text-color);
+    text-decoration: none;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 2px;	
+    text-align: center;
+    font-weight: 700;
+    
+    transition: color 0.3s ease;
+    transition: background-color 0.2s ease;
+
+    background-color: var(--light-bg-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+#contact-div a:hover {
+    transition: color 0.3s ease;
+    transition: background-color 0.2s ease;
+
+    background-color: var(--text-color);
+    color: var(--light-bg-color);
+}
+
+
+
